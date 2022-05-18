@@ -1,0 +1,18 @@
+export default {
+	port: 5000,
+	dbUri: "mongodb+srv://<username>:<pass>@cluster0.euzd3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+	//dbUri: "mongodb://mongou:mongou@mongo/users",
+	logLevel: 'info',
+	smtp: {
+		user: "fmi5coiecvsciaa4@ethereal.email",
+    	pass: "pass",
+      	host: "smtp.ethereal.email",
+      	port: 587,
+    	secure : false
+    }
+    
+
+	
+	
+
+}
